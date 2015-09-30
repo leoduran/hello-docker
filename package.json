@@ -1,0 +1,16 @@
+{
+  "name": "hello-docker",
+  "version": "0.0.1",
+  "description": "An example nodejs app running in docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "Leo Duran",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
