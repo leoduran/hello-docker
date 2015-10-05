@@ -1,0 +1,3 @@
+./app/**/*.specs.js
+--ui bdd
+--reporter mocha-minimalist-reporter
