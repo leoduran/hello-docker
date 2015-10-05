@@ -4,7 +4,7 @@ var calc = require('./calculator.js')
 
 describe('Calculator Tests', function() {
   it('should add two numbers', function() {
-    var result = calc.add(1, 2)
+    var result = calc.add(2, 2)
     expect(result).to.be.eql(4)
   })
 })
